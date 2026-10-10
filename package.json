@@ -1,0 +1,25 @@
+{
+  "name": "gdscwm.github.io",
+  "version": "1.0.0",
+  "description": "A website for GDSC @ William and Mary",
+  "main": "index.js",
+  "scripts": {
+  "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdscwm/gdscwm.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gdscwm/gdscwm.github.io/issues"
+  },
+  "homepage": "https://github.com/gdscwm/gdscwm.github.io#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
